@@ -6,7 +6,7 @@
         "description": "Show available commands"
     },
     "compare": {
-        "description": "Compare VC Time with others",
+        "description": "Compare VC Time with other",
         "options": {
             "user": {
                 "name": "user",
