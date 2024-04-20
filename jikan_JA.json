@@ -1,0 +1,107 @@
+{
+    "no_permissions": "このコマンドを使用する権限がありません！",
+    "request_reject": "リクエストは却下された。",
+    "loading": "読み込み中...",
+    "webhook_invalid": {
+        "title": "警告",
+        "info": "このチャネルに関連付けられているWebhookが無効です。\nウェブフックは削除されましたか？\nもう一度設定したい場合は、`/config log-channel set-channel.` を実行してください。"
+    },
+    "about": {
+        "description": "作った人：@kousokusoryuushishoutotsugata\n(kousoku)\n\n{0} 人へのサービス\nユーザーからの合計期間: {1}",
+        "field_titles": {
+            "servers": "サーバーズ",
+            "ping": "ピング",
+            "db_size": "DB サイズ"
+        },
+        "hardware_info": "ハードウェア情報"
+    },
+    "commands": {
+        "firstembedtitle": "利用可能なコマンド",
+        "secondembedtitle": "サブコマンド",
+        "secondembedinfo": "*引数はすべて必須！*"
+    },
+    "compare": {
+        "footer": "注：現地時間"
+    },
+    "config": {
+        "fail": "取り除くものは何もない。",
+        "log_channel": {
+            "view": "現在のロギングチャンネル： {0}",
+            "set": {
+                "header": "成功だ！",
+                "info": "{0}でウェブフックを作成。"
+            },
+            "channel_not_allowed": "このチャンネルタイプは許可されない。\n通常のテキスト・チャンネルのみが許可されます。",
+            "remove": "現在のロギングチャンネルを削除： {0}\n{1}のウェブフック「時間」を削除してください。",
+            "webhook_creation_reason": "ロギング・チャンネルのウェブフックを作成する",
+            "no_permissions_webhook_creation": "パーミッションエラー： ウェブフックを作成できません！`MANAGE_WEBHOOKS` パーミッションが必要です。"
+
+        },
+        "blocked_role": {
+            "view": "現在ブロックされている役割： {0}",
+            "set": "無視される役割の設定:  {0}",
+            "remove":"現在ブロックされている役割を削除： {0}",
+            "managed_role_error": "他のアプリケーション/ボットが管理するロールは設定できません。"
+        }
+    },
+    "help": {
+        "info": "こんにちは！私はあなたのVC時間を追跡することができます。自分のタイムを見るには、`/mystats` ゙コマンドを使ってください。globalとlocalのリーダーボードを見るには、`/leaderboards`コマンドを使ってください。**__local__**はサーバーのリーダーボードに関連し、**__global__**は自明です。あなたがサーバーの管理者で、ボットを設定したい場合、利用可能な設定コマンドを見るには、`/commands`を参照してください。",
+        "footer": "Jikanをご利用いただきありがとうございます！"
+    },
+    "hideme": {
+        "hidden": "ローカル＆グローバルリーダーボードから非表示になりました。",
+        "visible": "ローカル＆グローバルリーダーボードに表示されるようになりました。"
+    },
+    "leaderboards": {
+        "your_place": "あなたのポジション：",
+        "user_no_data_yet": "見つかりませんでした（データがまだありません）",
+        "footer": "Took {0} to process {1} user(s)",
+        "headers": {
+            "global": "Global VC Time Leaderboard",
+            "local": "VC Time Leaderboard for {0}"
+        },
+        "hidden_user": "Hidden User",
+        "no_indexed_users": "No one :skull:"
+    },
+    "mystats": {
+        "local_time": "VC Time - {0}",
+        "global_time": "VC Time - Global"
+    },
+    "reset": {
+        "header": "Warning!",
+        "success": "Success",
+        "info": "Are you sure? You currently have {0} (global) and {1} (local)\nThis action is irreversible!\n\n**WARNING! DO NOT CLICK ANY OF THE BUTTONS IF YOU DIDN'T RAN THE COMMAND! IT WILL CLEAR YOUR DATA INSTEAD OF THE USER WHO RAN THE COMMAND**",
+        "select_what": "Choose what you want to reset:",
+        "buttons": {
+            "local": "Local",
+            "global": "Global"
+        },
+        "responses": {
+            "local": "Your local data has been reset.",
+            "global": "Your global data has been reset (for leaderboards). However, it will not be overwritten if you have vc time in local.\nIf you want to delete your local data across all servers (which i assume you have data on), you have to </reset:0> manually."
+        }
+    },
+    "server_reset": {
+        "info": "Are you SURE about that?\n\nThere's a total of **__{0}__** user(s) and total time of **__{1}__**.\nConfirming will remove all user data in this server.",
+        "buttons": {
+            "confirm": "Confirm",
+            "cancel": "Cancel"
+        },
+        "not_ready": "Not yet ready for server reset...",
+        "no_permissions": "{0}, No permissions.",
+        "done": "Server Reset: Done."
+    },
+    "log_embeds": {
+        "channel": "Channel",
+        "join": "Member joined a channel",
+        "move": {
+            "title":"Member switched channels",
+            "old": "Old",
+            "new": "New"
+        },
+        "leave": {
+            "title": "Member left a channel",
+            "time_in_vc": "Time in VC"
+        }
+    }
+}

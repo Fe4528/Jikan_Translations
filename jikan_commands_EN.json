@@ -1,0 +1,84 @@
+{
+    "about": {
+        "description": "Bot information"
+    },
+    "commands": {
+        "description": "Show available commands"
+    },
+    "compare": {
+        "description": "Compare VC Time with others",
+        "options": {
+            "user": {
+                "name": "user",
+                "description": "the user"
+            }
+        }
+    },
+    "config": {
+        "description": "A.K.A settings",
+        "subcommand_groups": {
+            "log-channel": {
+                "description": "For configuring log channels"
+            },
+            "blocked-role": {
+                "description": "Users with this role will not be counted in vc time (locally & globally)"
+            }
+        },
+        "subcommands": {
+            "set-channel": {
+                "description": "Set a logging channel",
+                "options": {
+                    "channel": {
+                        "description": "Target channel"
+                    }
+                }
+            },
+            "view-channel": {
+                "description": "View current channel"
+            },
+            "remove-channel": {
+                "description": "Remove current logging channel"
+            },
+            "set-role": {
+                "description": "Set a role for blocking users from getting their vc time counted (locally & globally)",
+                "options": {
+                    "role": {
+                        "description": "The role"
+                    }
+                }
+            },
+            "view-role": {
+                "description": "View current role"
+            },
+            "remove-role": {
+                "description": "Remove current role"
+            }
+        }
+    },
+    "help": {
+        "description": "How Jikan works"
+    },
+    "hideme": {
+        "description": "Hides you from leaderboards"
+    },
+    "leaderboards": {
+        "description": "Leaderboards",
+        "subcommands": {
+            "local": {
+                "description": "Leaderboards for this server"
+            },
+            "global": {
+                "description": "Global Leaderboards"
+            }
+        }
+    },
+    "mystats": {
+        "description": "Checks your overall VC Time"
+    },
+    "reset": {
+        "description": "Reset your VC Time data"
+    },
+    "server_reset": {
+        "description": "Reset server VC Time"
+    }
+}

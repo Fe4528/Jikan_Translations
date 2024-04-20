@@ -1,0 +1,89 @@
+{
+    "id": {
+        "locale_info": "Indonesian"
+    },
+    "da": {
+        "locale_info": "Danish"
+    },
+    "de": {
+        "locale_info": "German"
+    },
+    "es-ES": {
+        "locale_info": "Spanish"
+    },
+    "fr": {
+        "locale_info": "French"
+    },
+    "hr": {
+        "locale_info": "Croatian"
+    },
+    "it": {
+        "locale_info": "Italian"
+    },
+    "lt": {
+        "locale_info": "Lithunaian"
+    },
+    "hu": {
+        "locale_info": "Hungarian"
+    },
+    "nl": {
+        "locale_info": "Dutch"
+    },
+    "no": {
+        "locale_info": "Norwegian"
+    },
+    "pl": {
+        "locale_info": "Polish"
+    },
+    "pt-BR": {
+        "locale_info": "Português do Brasil"
+    },
+    "ro": {
+        "locale_info": "Romania"
+    },
+    "fi": {
+        "locale_info": "Finnish"
+    },
+    "sv-SE": {
+        "locale_info": "Swedish"
+    },
+    "vi": {
+        "locale_info": "Vietnamese"
+    },
+    "tr": {
+        "locale_info": "Turkish"
+    },
+    "cs": {
+        "locale_info": "Czech"
+    },
+    "el": {
+        "locale_info": "Greek"
+    },
+    "bg": {
+        "locale_info": "Bulgarian"
+    },
+    "ru": {
+        "locale_info": "Russian"
+    },
+    "uk": {
+        "locale_info": "Ukrainian"
+    },
+    "hi": {
+        "locale_info": "Hindi"
+    },
+    "th": {
+        "locale_info": "Thai"
+    },
+    "zh-CN": {
+        "locale_info": "Chinese (China)"
+    },
+    "ja": {
+        "locale_info": "Japanese"
+    },
+    "zh-TW": {
+        "locale_info": "Chinese (Taiwan)"
+    },
+    "ko": {
+        "locale_info": "Korean"
+    }
+}

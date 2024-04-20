@@ -1,0 +1,107 @@
+{
+    "no_permissions": "You don't have permissions to use this command!",
+    "request_reject": "Request Rejected.",
+    "loading": "Loading...",
+    "webhook_invalid": {
+        "title": "Warning",
+        "info": "The webhook associated with this channel is invalid.\nIs the the webhook removed?\n\nIf you want to set it again, run `/config log-channel set-channel.`"
+    },
+    "about": {
+        "description": "Made by @kousokusoryuushishoutotsugata\n(kousoku)\n\nServing {0} people!\nTotal duration from users: {1}",
+        "field_titles": {
+            "servers": "Servers",
+            "ping": "Ping",
+            "db_size": "DB Size"
+        },
+        "hardware_info": "Hardware Info"
+    },
+    "commands": {
+        "firstembedtitle": "Available Commands",
+        "secondembedtitle": "Subcommands",
+        "secondembedinfo": "*All arguments are required!*"
+    },
+    "compare": {
+        "footer": "Note: This is local time"
+    },
+    "config": {
+        "fail": "There is nothing to remove.",
+        "log_channel": {
+            "view": "Current logging channel: {0}",
+            "set": {
+                "header": "Success!",
+                "info": "Created the webhook: Jikan for {0}"
+            },
+            "channel_not_allowed": "This channel type is not allowed.\nOnly normal text channels are allowed.",
+            "remove": "Removed current logging channel: {0}\nPlease remove the webhook \"Jikan\" in {1}",
+            "webhook_creation_reason": "create webhook for logging channel",
+            "no_permissions_webhook_creation": "Permission Error: Cannot create webhook! Needs `MANAGE_WEBHOOKS` Permission."
+
+        },
+        "blocked_role": {
+            "view": "Current blocked role: {0}",
+            "set": "Set ignored role: {0}",
+            "remove":"Removed current blocked role: {0}",
+            "managed_role_error": "Cannot set a role that is managed by other applications/bots."
+        }
+    },
+    "help": {
+        "info": "Hello! I can track your VC time for you. To view your time, use \\`/mystats\\`. To view global and local leaderboards, use \\`/leaderboards\\` command.\n\nThere are 2 types of leaderboard, **local** and **global**. **__local__** pertains to the server leaderboard and **__global__** is self-explanatory.\n\nIf you are a server admin and want to setup the bot, you can refer to \\`/commands\\` to see available configuration commands.\n\n Please take note that I am unable to track your VC time if i'm not in your server anymore.",
+        "footer": "Thanks for using Jikan!"
+    },
+    "hideme": {
+        "hidden": "You are now hidden from the Local & Global Leaderboard.",
+        "visible": "You are now visible on the Local & Global Leaderboard."
+    },
+    "leaderboards": {
+        "your_place": "Your place:",
+        "user_no_data_yet": "Not Found (No data yet)",
+        "footer": "Took {0} to process {1} user(s)",
+        "headers": {
+            "global": "Global VC Time Leaderboard",
+            "local": "VC Time Leaderboard for {0}"
+        },
+        "hidden_user": "Hidden User",
+        "no_indexed_users": "No one :skull:"
+    },
+    "mystats": {
+        "local_time": "VC Time - {0}",
+        "global_time": "VC Time - Global"
+    },
+    "reset": {
+        "header": "Warning!",
+        "success": "Success",
+        "info": "Are you sure? You currently have {0} (global) and {1} (local)\nThis action is irreversible!\n\n**WARNING! DO NOT CLICK ANY OF THE BUTTONS IF YOU DIDN'T RAN THE COMMAND! IT WILL CLEAR YOUR DATA INSTEAD OF THE USER WHO RAN THE COMMAND**",
+        "select_what": "Choose what you want to reset:",
+        "buttons": {
+            "local": "Local",
+            "global": "Global"
+        },
+        "responses": {
+            "local": "Your local data has been reset.",
+            "global": "Your global data has been reset (for leaderboards). However, it will not be overwritten if you have vc time in local.\nIf you want to delete your local data across all servers (which i assume you have data on), you have to </reset:0> manually."
+        }
+    },
+    "server_reset": {
+        "info": "Are you SURE about that?\n\nThere's a total of **__{0}__** user(s) and total time of **__{1}__**.\nConfirming will remove all user data in this server.",
+        "buttons": {
+            "confirm": "Confirm",
+            "cancel": "Cancel"
+        },
+        "not_ready": "Not yet ready for server reset...",
+        "no_permissions": "{0}, No permissions.",
+        "done": "Server Reset: Done."
+    },
+    "log_embeds": {
+        "channel": "Channel",
+        "join": "Member joined a channel",
+        "move": {
+            "title":"Member switched channels",
+            "old": "Old",
+            "new": "New"
+        },
+        "leave": {
+            "title": "Member left a channel",
+            "time_in_vc": "Time in VC"
+        }
+    }
+}
