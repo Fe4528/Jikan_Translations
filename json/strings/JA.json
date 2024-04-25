@@ -55,17 +55,17 @@
     "leaderboards": {
         "your_place": "あなたのポジション：",
         "user_no_data_yet": "見つかりませんでした（データがまだありません）",
-        "footer": "Took {0} to process {1} user(s)",
+        "footer": "ユーザーを{1}処理するために{0}取った",
         "headers": {
-            "global": "Global VC Time Leaderboard",
-            "local": "VC Time Leaderboard for {0}"
+            "global": "グローバルVCタイムリーダーボード",
+            "local": "{0}のVCタイムリーダーボード"
         },
-        "hidden_user": "Hidden User",
-        "no_indexed_users": "No one :skull:"
+        "hidden_user": "隠しユーザー",
+        "no_indexed_users": "誰もいない💀。"
     },
     "mystats": {
-        "local_time": "VC Time - {0}",
-        "global_time": "VC Time - Global"
+        "local_time": "VCタイム - {0}",
+        "global_time": "VCタイム - グローバル"
     },
     "reset": {
         "header": "Warning!",
